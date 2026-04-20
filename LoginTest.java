@@ -72,7 +72,7 @@ public class LoginTest {
 
     @Test
     void testInvalidPhoneNumber_NoCountryCode() {
-        assertFalse(login.checkPhoneNumber("0831234567"));
+        assertFalse(login.checkPhoneNumber("0645891125"));
     }
 
     @Test
